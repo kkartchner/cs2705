@@ -31,7 +31,7 @@ def decimal_to_binary(ip_address):
     for i in range(1, len(octets)):
         ip_in_binary += ("." + octets[i])
 
-    print(ip_address, " converted to binary is: ", ip_in_binary)
+    print(ip_address, "converted to binary is:", ip_in_binary)
 
 
 ########################################################################################
@@ -52,7 +52,7 @@ def binary_to_decimal(ip_address):
     for i in range(1, len(octets)):
         ip_in_decimal += ("." + octets[i])
 
-    print(ip_address, " converted to decimal is: ", ip_in_decimal)
+    print(ip_address, "converted to decimal is:", ip_in_decimal)
 
 ################################################################
 main()
