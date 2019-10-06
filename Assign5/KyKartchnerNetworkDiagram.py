@@ -37,7 +37,7 @@ def main():
 # Function to print specified network grouping:
 def print_network_grouping(header, group_names, group_network):
     print('{:-^100}'.format(header))
-    format_string = "{:<35} {:<30} {}"
+    format_string = '{:<35} {:<30} {}'
     print(format_string.format('Name', 'Network Address and Subnet',
                                'Subnet Host IP address range'))
     print('{:-^100}'.format(''))
